@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoDrone Smart Aerial Solutions</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="header">
+        <h1>EcoDrone</h1>
+        <nav class="nav">
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#join">Join Us</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section id="about" class="about section">
+            <h2>Smart Aerial Environmental Monitoring</h2>
+            <p>
+                EcoDrone is a fictional initiative that uses AI-powered drones to monitor air
+                quality, forests, and farmlands—all with zero emissions.
+            </p>
+        </section>
+
+        <section id="features" class="features section">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <article class="feature-card hover-grow">
+                    <h3>Zero Emission Flight</h3>
+                    <p>Powered entirely by eco-friendly energy cells.</p>
+                </article>
+
+                <article class="feature-card hover-grow">
+                    <h3>AI Powered Scanning</h3>
+                    <p>Smart real-time environmental analysis.</p>
+                </article>
+
+                <article class="feature-card hover-grow">
+                    <h3>Live Dashboard</h3>
+                    <p>Monitor everything through a responsive web app.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="join" class="section form-section">
+            <h2>Join Our Pilot Program</h2>
+            <form class="eco-form" aria-label="Join EcoDrone form">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+
+                <fieldset>
+                    <legend>What is your interest?</legend>
+                    <label><input type="checkbox" name="interest" value="forests" /> Forest Monitoring</label>
+                    <label><input type="checkbox" name="interest" value="air" /> Air Quality Analysis</label>
+                    <label><input type="checkbox" name="interest" value="agriculture" /> Smart Agriculture</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Choose your role</legend>
+                    <label><input type="radio" name="role" value="researcher" required /> Researcher</label>
+                    <label><input type="radio" name="role" value="volunteer" /> Volunteer</label>
+                </fieldset>
+
+                <label for="plan">Program Plan</label>
+                <select id="plan" name="plan">
+                    <option value="none">None</option>
+                    <option value="basic">Basic Access</option>
+                    <option value="beta">Beta Tester</option>
+                    <option value="partner">Partner Level</option>
+                </select>
+
+                <label for="message">Tell us why you want to join it</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit" class="btn-submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">© 2025 EcoDrone Initiative</footer>
+</body>
+</html>
