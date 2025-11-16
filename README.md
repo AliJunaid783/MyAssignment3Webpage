@@ -24,7 +24,7 @@ This project is a fully responsive single-page website created for the assignmen
 
 
 ## How to Run
-Just open index.html in any browser.
+Just open **index.html** in any browser.
 
 
 ## Validation Proof
